@@ -230,7 +230,7 @@ ul {
   backdrop-filter: blur(18px);
 }
 
-.header-inner {
+.site-header .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -461,6 +461,12 @@ ul {
 .hero-metric span {
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.85rem;
+}
+
+#problema .section-heading {
+  max-width: 980px;
+  margin: 0 auto 40px;
+  text-align: left;
 }
 
 .problem-grid {
@@ -818,6 +824,14 @@ ul {
     padding: 76px 0;
   }
 
+  .site-header .header-inner {
+    justify-content: center;
+  }
+
+  .header-inner .btn-whatsapp {
+    display: none;
+  }
+
   .hero {
     padding: 96px 0 84px;
   }
@@ -828,14 +842,27 @@ ul {
       url("hero-bg-premium.png") 72% center / cover no-repeat;
   }
 
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero .lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero h1 {
     max-width: none;
   }
 
-  .hero-actions,
-  .hero-points {
+  .hero-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .hero-points {
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero-metrics,

@@ -20,7 +20,7 @@ const HERO_VARIANTS = {
   },
   geral: {
     headline: "Descubra se você tem direito à Isenção do Imposto de Renda.",
-    subheadline: "Aposentados, pensionistas e militares reformados podem ter direito à isenção e à restituição de valores pagos indevidamente."
+    subheadline: "Aposentados, pensionistas e militares reformados ou da reserva podem ter direito à isenção e à restituição de valores pagos indevidamente."
   }
 };
 
